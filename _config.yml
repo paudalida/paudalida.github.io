@@ -1,14 +1,10 @@
-title: "Paupau's Blog"
-author: "Pauleen"
+title: "Memen's Blog"
+author: "Pau"
 
 email: "Pauleendalida@gmail.com"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
 theme: "minima"
 
-rss: rss
 
 kramdown:
   syntax_highlighter_opts:
