@@ -130,6 +130,29 @@ Using Python's socket module and the Tkinter package for the graphical user inte
    - threading: Used for creating and managing threads to handle concurrent execution.
    - tkinter: Python's standard GUI (Graphical User Interface) package.
    - scrolledtext: A widget in Tkinter for displaying text with a vertical scrollbar.
+     
+2. Constants:
+   - HOST and PORT: Define the server's host address and port number.
+   - Various color constants and font styles for the GUI.
+       
+3. Socket Initialization:
+   - client: Creates a socket object for communication with the server.
+     
+4. GUI Initialization:
+   - The GUI is created using tkinter. Three frames (top_frame, middle_frame, and bottom_frame) are used to organize the layout.
+   - Entry fields, labels, and buttons are placed in the frames to create a user-friendly interface.
+     
+5. Functions:
+   - add_message(message): Appends a message to the chat box.
+   - connect(): Handles the connection to the server, sends the username, and starts a thread to listen for incoming messages.
+   - send_message(): Sends a message to the server.
+   - listen_for_messages_from_server(client): Listens for messages from the server in a separate thread.
+     
+6. Main Loop:
+   - root.mainloop(): Enters the main event loop for the GUI.
+
+7. Execution:
+   - if __name__ == '__main__': main(): Calls the main() function when the script is executed.
 
 
 
