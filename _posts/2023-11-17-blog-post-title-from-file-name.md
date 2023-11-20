@@ -235,19 +235,34 @@ Using Python's socket module and threading, this code creates a basic server for
 1. Import Statements:
    - socket: Provides a low-level interface for network communication.
    - threading: Used for creating and managing threads to handle concurrent execution.
+     
 2. Constants:
    - HOST and PORT: Define the server's host address and port number.
    - LISTENER_LIMIT: Maximum number of clients the server can listen to simultaneously.
    - active_clients: A list to keep track of connected clients, where each element is a tuple containing the client's username and the client socket.
+     
 3. Functions:
    - listen_for_messages(client, username): Listens for messages from a specific client and broadcasts them to all clients.
    - send_message_to_client(client, message): Sends a message to a specific client.
    - send_messages_to_all(message): Broadcasts a message to all connected clients.
    - client_handler(client): Handles the addition of a new client, sends a prompt message to all clients, and starts a thread to listen for
      messages from the new client.
-6. Main Function (main()):
+    
+4. Main Function (main()):
    - Creates a server socket and binds it to the specified host and port.
    - Listens for incoming connections, and when a client connects, it starts a new thread to handle that client using the client_handler function.
-8. Execution (if __name__ == '__main__': main()):
+     
+5. Execution (if __name__ == '__main__': main()):
    - Calls the main() function when the script is executed.
+  
+TO RUN THE CODE: 
+
+Open the CMD to run then type in these code: 
+
+![image](https://github.com/paudalida/paudalida.github.io/assets/151016630/63e9e31f-8471-41b8-b18b-600eaababfba)
+![image](https://github.com/paudalida/paudalida.github.io/assets/151016630/95aabf81-0faa-43ae-aef3-7cf630e3c9d2)
+
+After you have typed in these commands. You will see this: 
+![image](https://github.com/paudalida/paudalida.github.io/assets/151016630/7d38d810-8385-4552-881a-d74bfce3103e)
+
    
