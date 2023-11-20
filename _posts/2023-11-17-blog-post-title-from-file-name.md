@@ -124,21 +124,12 @@ if __name__ == '__main__':
 ```
 Explanation: 
 
-Using Python's socket and threading modules for networking and the Tkinter library for the graphical user interface (GUI), 
-this code creates a basic real-time chat application.
-
-1. The first part of the code "Imports the Libraries" needed:
-    import socket
-    import threading
-    import tkinter as tk 
-    from tkinter import scrolledtext
-    from tkinter import messagebox
-   These lines import the necessary modules for socket communication, multithreading, and Tkinter GUI components.
-2. The second part is that I defined the constants. 
-   HOST = '127.0.0.5'
-   PORT = 4321
-   The constants define the host and port used for the server connection.
-3.
+Using Python's socket module and the Tkinter package for the graphical user interface (GUI), this code creates a basic real-time chat client. To join the chat, users must enter their username when the chat client connects to the server that the HOST and PORT variables specify. Users can submit messages by putting them in the input field and pressing the "Send" button. The chat messages are shown in a scrollable text box.
+1. Import Statements:
+   - socket: Provides a low-level interface for network communication.
+   - threading: Used for creating and managing threads to handle concurrent execution.
+   - tkinter: Python's standard GUI (Graphical User Interface) package.
+   - scrolledtext: A widget in Tkinter for displaying text with a vertical scrollbar.
 
 
 
