@@ -4,23 +4,3 @@ author: "Pau"
 email: "Pauleendalida@gmail.com"
 
 theme: "minima"
-
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-titles_from_headings:
-  strip_title: true
-  collections: true
-
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      tags: Other
