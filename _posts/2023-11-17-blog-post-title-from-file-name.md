@@ -260,9 +260,12 @@ TO RUN THE CODE:
 Open the CMD to run then type in these code: 
 
 ![image](https://github.com/paudalida/paudalida.github.io/assets/151016630/63e9e31f-8471-41b8-b18b-600eaababfba)
+
+
 ![image](https://github.com/paudalida/paudalida.github.io/assets/151016630/95aabf81-0faa-43ae-aef3-7cf630e3c9d2)
 
-After you have typed in these commands. You will see this: 
+After you have typed in these commands. The final output will be like this: 
+
 ![image](https://github.com/paudalida/paudalida.github.io/assets/151016630/7d38d810-8385-4552-881a-d74bfce3103e)
 
    
