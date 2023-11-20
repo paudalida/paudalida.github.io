@@ -122,6 +122,30 @@ if __name__ == '__main__':
     main()
 
 ```
+Explanation: 
+
+Using Python's socket and threading modules for networking and the Tkinter library for the graphical user interface (GUI), 
+this code creates a basic real-time chat application.
+
+1. The first part of the code "Imports the Libraries" needed:
+    import socket
+    import threading
+    import tkinter as tk 
+    from tkinter import scrolledtext
+    from tkinter import messagebox
+   These lines import the necessary modules for socket communication, multithreading, and Tkinter GUI components.
+2. The second part is that I defined the constants. 
+   HOST = '127.0.0.5'
+   PORT = 4321
+   The constants define the host and port used for the server connection.
+3.
+
+
+
+
+
+
+```
 
 The code for server.py is provided below:
 
